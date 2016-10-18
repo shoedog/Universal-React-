@@ -2,15 +2,38 @@
   "name": "universal_css_modules",
   "version": "1.0.0",
   "description": "Universal React CSS Module Demo",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shoedog/Universal-React-.git"
+  },
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "node dist/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "css-loader": "^0.25.0",
+    "postcss-import": "^8.1.2",
+    "postcss-loader": "^1.0.0",
+    "postcss-mixins": "^5.4.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-simple-vars": "^3.0.0",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-jsx-display-if": "^3.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "babel-runtime": "^6.11.6"
   }
 }
