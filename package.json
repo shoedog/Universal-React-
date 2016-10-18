@@ -1,0 +1,16 @@
+{
+  "name": "universal_css_modules",
+  "version": "1.0.0",
+  "description": "Universal React CSS Module Demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "node dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}
